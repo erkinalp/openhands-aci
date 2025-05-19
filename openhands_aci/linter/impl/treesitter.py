@@ -1,7 +1,7 @@
 import warnings
 
-from openhands_grep_ast import TreeContext, filename_to_lang
-from openhands_grep_ast.parsers import PARSERS
+from grep_ast import TreeContext, filename_to_lang
+from grep_ast.parsers import PARSERS
 
 from ..base import BaseLinter, LintResult
 from .treesitter_compat import get_parser
