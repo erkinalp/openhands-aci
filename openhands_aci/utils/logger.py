@@ -24,6 +24,7 @@ class JSONFormatter(logging.Formatter):
     """
     Formatter that outputs JSON strings after parsing the log record.
     """
+
     def __init__(self, fmt_dict: Optional[Dict[str, Any]] = None):
         """
         Initialize the formatter with the specified format dictionary.
@@ -64,7 +65,7 @@ console_handler = logging.StreamHandler()
 console_handler.setLevel(current_log_level)
 
 if LOG_JSON:
-    formatter = JSONFormatter()
+    formatter: logging.Formatter = JSONFormatter()
 else:
     formatter = logging.Formatter(
         '{asctime} - {name}:{levelname} - {message}',
