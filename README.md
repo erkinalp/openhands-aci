@@ -1,5 +1,8 @@
 # Agent-Computer Interface (ACI) for OpenHands
 
+> **⚠️ DEPRECATION NOTICE**: This repository is now archived. The file editor tool has been migrated to the [OpenHands Agent SDK](https://github.com/All-Hands-AI/agent-sdk) under `openhands/tools/str_replace_editor`. Please use the new implementation for all future development.
+
+
 An Agent-Computer Interface (ACI) designed for software development agents [OpenHands](https://github.com/All-Hands-AI/OpenHands). This package provides essential tools and interfaces for AI agents to interact with computer systems for software development tasks.
 
 ## Features
